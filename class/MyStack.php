@@ -3,8 +3,8 @@
 
 class MyStack
 {
-    protected $stack;
-    protected $limit;
+    public $stack;
+    public $limit;
 
     public function __construct($limit)
     {
